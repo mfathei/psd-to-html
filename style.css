@@ -110,5 +110,57 @@ header nav span {
     text-transform: uppercase;
     font-size: 18px;
     border-radius: 5px;
-    box-shadow: 1px 1px 6px rgb(0,0,0,0.4);
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+}
+
+/** main content */
+
+section {
+    margin: 40px 0 60px;
+}
+
+section::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#poins-of-sale h2{
+    height: 0;
+    text-indent: -10000px;
+    margin: 0;
+}
+
+#poins-of-sale ul{
+    list-style-type: none;
+}
+
+#poins-of-sale li{
+    float: left;
+    width: 32%;
+}
+
+#poins-of-sale li:nth-child(2){
+    margin: 0 2%;
+}
+
+#poins-of-sale li img {
+    width: 100%;
+}
+
+#poins-of-sale li h3{
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    color: #8c8b8b;
+    margin-bottom: 10px;
+}
+
+#poins-of-sale p{
+    width: 80%;
+    line-height: 1.4em;
+    font-size: 14px;
+    color: #c5c5c5;
+    text-align: center;
+    margin: 0 10%;
 }
