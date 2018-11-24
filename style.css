@@ -110,7 +110,7 @@ header nav span {
     text-transform: uppercase;
     font-size: 18px;
     border-radius: 5px;
-    box-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
 }
 
 /** main content */
@@ -119,28 +119,28 @@ section {
     margin: 40px 0 60px;
 }
 
-section::after{
+section::after {
     display: block;
     content: "";
     clear: both;
 }
 
-#poins-of-sale h2{
+#poins-of-sale h2 {
     height: 0;
     text-indent: -10000px;
     margin: 0;
 }
 
-#poins-of-sale ul{
+#poins-of-sale ul {
     list-style-type: none;
 }
 
-#poins-of-sale li{
+#poins-of-sale li {
     float: left;
     width: 32%;
 }
 
-#poins-of-sale li:nth-child(2){
+#poins-of-sale li:nth-child(2) {
     margin: 0 2%;
 }
 
@@ -148,7 +148,7 @@ section::after{
     width: 100%;
 }
 
-#poins-of-sale li h3{
+#poins-of-sale li h3 {
     font-size: 24px;
     font-weight: normal;
     text-align: center;
@@ -156,11 +156,50 @@ section::after{
     margin-bottom: 10px;
 }
 
-#poins-of-sale p{
+#poins-of-sale p {
     width: 80%;
     line-height: 1.4em;
     font-size: 14px;
     color: #c5c5c5;
     text-align: center;
     margin: 0 10%;
+}
+
+#clients {
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+}
+
+#clients h2 {
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: green;
+    padding: 8px;
+    position: relative;
+    top: -50px;
+    margin: 0 auto;
+    ;
+    border-right: 16px solid #fff;
+    border-left: 16px solid #fff;
+}
+
+#clients img {
+    float: left;
+    width: 30%;
+}
+
+#clients blockquote {
+    float: right;
+    width: 66%;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    line-height: 1.6em;
+    font-style: italic;
+    color: #888;
+    padding-top: 50px;
+    background: url(images/quote.png) no-repeat top left;
 }
